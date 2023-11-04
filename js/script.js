@@ -823,7 +823,7 @@ function updateJam() {
       if (re_detik < 10) {
         re_detik = "0" + re_detik;
       }
-      document.getElementById("waktu-reminder").innerHTML = " Memasuki :" + list_nama[x] + " Dalam " + re_jam + ":" + re_menit + ":" + re_detik ;
+      document.getElementById("waktu-reminder").innerHTML = " Memasuki : " + list_nama[x] + " Dalam " + re_jam + ":" + re_menit + ":" + re_detik ;
       document.getElementById("reminder").style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     }
   }
