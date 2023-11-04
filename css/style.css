@@ -185,7 +185,7 @@ p.info-jam {
 }
 
 .reminder {
-	height: 5%;
+	height: auto;
 	width: 35%;
 	margin: 20px auto 1vh auto;
 	border-radius: 60px;
