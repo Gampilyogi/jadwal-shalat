@@ -159,7 +159,7 @@ p.jam {
 	width: 10%;
 	text-align: center;
 	border-radius: 2px;
-	background-color: rgba(2, 2, 2, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .data:first-child {
@@ -179,22 +179,22 @@ hr.m0 {
 
 p.info-jam {
 	font-size: 2.5vw;
-	color: rgb(255, 255, 255);
+	color: rgb(230, 255, 252);
 	font-weight: bold;
 	margin: 0.2vh;
 }
 
 .reminder {
-	height: 4%;
+	height: 8%;
 	width: 30%;
-	margin: 0.4vh auto 0.4vh auto;
+	font-weight: bold;
+	margin: 10px auto 1vh auto;
 	border-radius: 60px;
 	text-align: center;
-	color: rgb(79, 245, 189);
 }
 
 p.text-reminder {
-	font-size: 1.8vw;
+	font-size: 2vw;
 	color: rgb(255, 255, 255);
 }
 
