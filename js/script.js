@@ -824,7 +824,7 @@ function updateJam() {
         re_detik = "0" + re_detik;
       }
       document.getElementById("waktu-reminder").innerHTML = "-" + re_jam + ":" + re_menit + ":" + re_detik + " menuju waktu " + list_nama[x];
-      document.getElementById("reminder").style.backgroundColor = "rgba(180, 20, 0, 0.6)";
+      document.getElementById("reminder").style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     }
   }
 }
